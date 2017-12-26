@@ -5,7 +5,7 @@ html {
 body {
     background: #1d1f21;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
-    color: #545454;
+    color: #858c93;
     font-family: "Source Code Pro";
     font-size: 13px;
     line-height: 1.5;
@@ -39,7 +39,7 @@ samp {
 }
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+
     background: transparent;
     border: 7px solid rgba(0, 0, 0, 0.12);
     border-radius: 100px;
@@ -48,16 +48,6 @@ img {
     max-width: 95%;
 }
 
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-}
 
 p {
     margin-top: 50px;
